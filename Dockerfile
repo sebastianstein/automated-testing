@@ -10,5 +10,3 @@ ARG uid=1000
 ARG gid=1000
 
 USER ${uid}:${gid}
-
-FROM selenium/standalone-chrome-debug:latest
